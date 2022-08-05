@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .wrapper {
   width: 100%; /*Устанавливает ширину содержимого элемента*/
@@ -7,14 +6,12 @@
   margin-left: auto; /*Устанавливает величину отступа от левого края элемента*/
   margin-right: auto; /*Устанавливает величину отступа от правого края элемента
   Устанавливает значение поля от правого края содержимого элемента*/
-  background: #EEEEEE;
-  }
+  background: #eeeeee;
+}
 
 body {
   font-family: Roboto, sans-serif;
   margin: 0px auto;
-  
-
 }
 
 .head {
@@ -64,7 +61,6 @@ body {
 }
 /*Навигационный контейнер*/
 
-
 h1 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -76,7 +72,7 @@ h1 {
   color: white;
 }
 .jumbotron {
-display: flex;
+  display: flex;
   width: 100%;
   max-width: 1219px;
   background-image: url(images/image.png);
@@ -99,7 +95,6 @@ display: flex;
   text-align: center;
   margin-top: 48px;
   margin-bottom: 16px;
-
 }
 .theproblem > p {
   font-size: 32px;
@@ -137,8 +132,7 @@ display: flex;
   padding-right: 55px;
   display: flex;
   flex-direction: column;
-  background: #FFFFFF;
-
+  background: #ffffff;
 }
 .ppclogo {
   width: 115px;
@@ -171,16 +165,15 @@ display: flex;
 }
 .theteam {
   padding-left: 145px;
-  padding-right:145px;
+  padding-right: 145px;
   display: flex;
   flex-direction: column;
-  background: #EEEEEE;
-
+  background: #eeeeee;
 }
-.team1, .team2{
-display: inline-flex;
-justify-content: space-between;
-
+.team1,
+.team2 {
+  display: inline-flex;
+  justify-content: space-between;
 }
 .team1 {
   margin-top: 56px;
@@ -201,36 +194,41 @@ justify-content: space-between;
   margin-bottom: 16px;
 }
 figcaption > h4 {
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #007765;
-text-align: center;
-line-height: 28px;
-margin: 10px;
-  }
-  figcaption > p {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
-    color: #000;
-    text-align: center;
-    line-height: 21px;
-    margin: 10px;
-      }
-       
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #007765;
+  text-align: center;
+  line-height: 28px;
+  margin: 10px;
+}
+figcaption > p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  line-height: 21px;
+  margin: 10px;
+}
+
 .teamimg {
   width: 168px;
 }
-        .dinesh, .Bertram, .richard, .Jared, .Monica, .Nelson{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-      }
-      
+.dinesh,
+.Bertram,
+.richard,
+.Jared,
+.Monica,
+.Nelson {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
   display: flex;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #333333;
   width: 400;
   font-size: 18px;
@@ -238,19 +236,17 @@ margin: 10px;
   line-height: 21.09px;
   padding: 48px 339px 64px 340px;
   text-align: center;
-
-
 }
 
 @media (max-width: 700px) {
-  .team1, .team2 {
+  .team1,
+  .team2 {
     display: block;
-    
   }
   .team2 {
     margin-top: 10px;
   }
-  .nav-con{
+  .nav-con {
     flex-direction: column;
   }
   .footer {
@@ -259,11 +255,15 @@ margin: 10px;
   .theproblem > p {
     text-align: center;
   }
-  h1 {font-size: 50px;}
+  h1 {
+    font-size: 50px;
+  }
   .link {
     font-size: 20px;
   }
-  .ppc > h2, .theteam > h2, .theproblem > h2 {
+  .ppc > h2,
+  .theteam > h2,
+  .theproblem > h2 {
     font-size: 40px;
   }
 }
