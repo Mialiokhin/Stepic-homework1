@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .wrapper {
   width: 100%; /*Устанавливает ширину содержимого элемента*/
   max-width: 1219px;
@@ -70,6 +73,7 @@ h1 {
   padding-top: 159px;
   padding-bottom: 159px;
   margin: 0;
+  color: white;
 }
 .jumbotron {
 display: flex;
@@ -113,7 +117,6 @@ display: flex;
   max-width: 1219px;
   background-image: url(/images/hero.png);
   background-size: cover;
-  /* margin-top: 84px; */
   justify-content: center;
   margin-bottom: 0;
   margin-top: 92px;
@@ -134,6 +137,8 @@ display: flex;
   padding-right: 55px;
   display: flex;
   flex-direction: column;
+  background: #FFFFFF;
+
 }
 .ppclogo {
   width: 115px;
@@ -145,6 +150,7 @@ display: flex;
   font-size: 32px;
   line-height: 37.5px;
   color: #000;
+  margin: 10px;
 }
 .ppc > h2 {
   color: #007765;
@@ -159,4 +165,95 @@ display: flex;
 .ppc1 {
   display: inline-flex;
   flex-direction: row;
+}
+.ppc1 > p {
+  padding-left: 25px;
+}
+.theteam {
+  padding-left: 145px;
+  padding-right:145px;
+  display: flex;
+  flex-direction: column;
+  background: #EEEEEE;
+
+}
+.team1, .team2{
+display: inline-flex;
+justify-content: space-between;
+
+}
+.team1 {
+  margin-top: 56px;
+}
+.team2 {
+  margin-top: 82px;
+  margin-bottom: 122px;
+}
+
+.theteam > h2 {
+  color: #007765;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+figcaption > h4 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #007765;
+text-align: center;
+line-height: 28px;
+margin: 10px;
+  }
+  figcaption > p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    line-height: 21px;
+    margin: 10px;
+      }
+       
+.teamimg {
+  width: 168px;
+}
+        .dinesh, .Bertram, .richard, .Jared, .Monica, .Nelson{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      
+.footer {
+  display: flex;
+  color: #FFFFFF;
+  background-color: #333333;
+  width: 400;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 21.09px;
+  padding: 48px 339px 64px 340px;
+  text-align: center;
+
+
+}
+
+@media (max-width: 700px) {
+  .team1, .team2 {
+    display: block;
+    
+  }
+  .team2 {
+    margin-top: 10px;
+  }
+  .nav-con{
+    flex-direction: column;
+  }
+  .footer {
+    padding: 0px;
+  }
 }
