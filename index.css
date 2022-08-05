@@ -256,4 +256,14 @@ margin: 10px;
   .footer {
     padding: 0px;
   }
+  .theproblem > p {
+    text-align: center;
+  }
+  h1 {font-size: 50px;}
+  .link {
+    font-size: 20px;
+  }
+  .ppc > h2, .theteam > h2, .theproblem > h2 {
+    font-size: 40px;
+  }
 }
