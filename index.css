@@ -79,7 +79,7 @@ h1 {
 display: flex;
   width: 100%;
   max-width: 1219px;
-  background-image: url(/images/image.png);
+  background-image: url(images/image.png);
   background-size: cover;
   margin-top: 84px;
   justify-content: center;
